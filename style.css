@@ -299,7 +299,7 @@ section li a[href$='.pdf'] span:before{
     display: none;
 }
 
-a ~ div.modale:target{
+div.modale:target{
     display: block;
     position: absolute;
     top: 0;
