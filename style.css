@@ -321,7 +321,7 @@ div.modale:target{
     background: #fff;
 }
 .boite a{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     background: #000;
     color: #fff;
@@ -331,3 +331,15 @@ div.modale:target{
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+.rate {  font-size: 30px;  text-align: center;  
+/*        margin-top: 30vh;*/
+}
+a {  color: #008cba;  text-decoration: none;}
+a:target {  color: #9d0064;}
+a:target ~ a {  color: #aaa;}
+a:hover {  color: #9d0064 !important;}
+a:hover ~ a {  color: #aaa !important;}
